@@ -1,0 +1,61 @@
+v 4
+file . "calc_tb.vhd" "15285c6ce9722ae626188d6bc2f784654aca61a7" "20250610021235.694":
+  entity calc_tb at 1( 0) + 0 on 401;
+  architecture a_calc of calc_tb at 8( 101) + 0 on 402;
+file . "maq_estados.vhd" "4041d7177a61a82831f88430d3cba498964ce921" "20250610021113.881":
+  entity maq_estados at 1( 0) + 0 on 393;
+  architecture a_maq_estados of maq_estados at 12( 195) + 0 on 394;
+file . "addPC.vhd" "e0bcac831bc725d8cd29a6bada7a953c5cd26cb0" "20250610011100.987":
+  entity addpc at 1( 0) + 0 on 369;
+  architecture a_addpc of addpc at 13( 243) + 0 on 370;
+file . "regInstrucao.vhd" "b43d04ec2a78174a2bb9c7e5b61cc860ee366379" "20250607010022.026":
+  entity reginstrucao at 1( 0) + 0 on 69;
+  architecture a_reginstrucao of reginstrucao at 15( 309) + 0 on 70;
+file . "ROM.vhd" "cf0d44c2638e7af4240f1981e4632c0285cad6df" "20250610005717.634":
+  entity rom at 1( 0) + 0 on 363;
+  architecture a_rom of rom at 13( 274) + 0 on 364;
+file . "uabc_tb.vhd" "e26816d6c27a5b563723fd428ecce263fdbd3b45" "20250609232050.178":
+  entity uabc_tb at 1( 0) + 0 on 303;
+  architecture sim of uabc_tb at 8( 101) + 0 on 304;
+file . "bancoRegistradores.vhd" "a5f0ad1e5bc3b666f4f0e6e904b03a493594cdcc" "20250607003343.883":
+  entity bancoregistradores at 1( 0) + 0 on 53;
+  architecture a_bancoregistradores of bancoregistradores at 17( 539) + 0 on 54;
+file . "ULA_acu_tb.vhd" "6f82557d2ff7671fe75e17f4365f8af303c77b6c" "20250606225535.164":
+  entity ula_acu_tb at 1( 0) + 0 on 25;
+  architecture sim of ula_acu_tb at 8( 104) + 0 on 26;
+file . "acumulador.vhd" "de9323c60ae5dad5745008aa63b2f7045998ada0" "20250606222342.702":
+  entity acumulador at 1( 0) + 0 on 13;
+  architecture a_acumulador of acumulador at 15( 307) + 0 on 14;
+file . "ULA.vhd" "af7efcffb2af5543ad7f837e5ca706d64eccafd9" "20250610000106.591":
+  entity ula at 1( 0) + 0 on 335;
+  architecture a_ula of ula at 16( 466) + 0 on 336;
+file . "ULA_acu.vhd" "4147da5c477ff660382d95c8ea962670aea86893" "20250606222544.892":
+  entity ula_acu at 1( 0) + 0 on 15;
+  architecture a_uac of ula_acu at 21( 620) + 0 on 16;
+file . "registrador.vhd" "107838e86d6e36edac905966152e03bb4cff42ba" "20250606231123.399":
+  entity registrador at 1( 0) + 0 on 27;
+  architecture a_registrador of registrador at 15( 308) + 0 on 28;
+file . "calcConstante.vhd" "e625fba5e98a88bb71cec16a829d606044e30044" "20250606231430.699":
+  entity calcconstante at 1( 0) + 0 on 33;
+  architecture a_calcconstante of calcconstante at 12( 269) + 0 on 34;
+file . "uabc.vhd" "e2a40d623ab9d3647dcf9840ee9fde5218355f59" "20250609224943.664":
+  entity uabc at 1( 0) + 0 on 289;
+  architecture a_uabc of uabc at 25( 1028) + 0 on 290;
+file . "PC.vhd" "739ed0503115d1eded79eab005e855ea28e8400a" "20250607152149.071":
+  entity pc at 1( 0) + 0 on 85;
+  architecture a_pc of pc at 15( 423) + 0 on 86;
+file . "ROM_pc_regInst.vhd" "81d8e33ef97872e12268a39c9b25d5978055665e" "20250610011226.567":
+  entity rom_pc_reginst at 1( 0) + 0 on 373;
+  architecture a_rom_pc of rom_pc_reginst at 19( 563) + 0 on 374;
+file . "rpcr_tb.vhd" "e8645e51e630d227715a778d3fe90a626dcf8ffc" "20250607184138.646":
+  entity rpcr_tb at 1( 0) + 0 on 131;
+  architecture tb of rpcr_tb at 8( 101) + 0 on 132;
+file . "UC.vhd" "39051f35a09f0e4f95b611bab4a21fc5f9ebaff2" "20250610021231.131":
+  entity uc at 1( 0) + 0 on 399;
+  architecture a_uc of uc at 29( 1140) + 0 on 400;
+file . "calculadora.vhd" "6aa89d863078471c958ac48303ade2e07bf6d844" "20250611221700.949":
+  entity calculadora at 1( 0) + 0 on 403;
+  architecture acalc of calculadora at 13( 206) + 0 on 404;
+file . "uabc_store_tb.vhd" "5c0ff6adce1d02df79b154527bd843765be6655e" "20250609220650.658":
+  entity uabc_store_tb at 1( 0) + 0 on 275;
+  architecture sim of uabc_store_tb at 9( 127) + 0 on 276;

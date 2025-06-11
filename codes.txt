@@ -1,0 +1,49 @@
+opcodes:
+
+        li:     1110
+        addi:   1111
+        add :   1100 -- faz soma tipo R
+        subi:   0001
+        mv:     0100 -- faz load do valor do reg no acumulador.
+        store:  1000 -- salva valor do acumulador no reg.
+        jump :  0101 -- pula para endereço especificado
+        bls:    1011 -- avança/volta um delta se reg < Acu
+
+regs:
+    r0: 0000, r1: 0001, r2: 0010, r3: 0011, r4: 0100,
+    r5: 0101, r6: 0110, r7: 0111, r8: 1000, r9: 1001.
+
+
+códigos:
+
+intruções de branch: --compara o registrador com acumulador
+    [ 4 bits ]  | [ 4 bits ] | [ 8 bits ]
+      [opcode]  |   [ reg ]  |  [delta]
+
+instruções tipo R (add): --ex.: ADD Ac, R5
+
+    [ 4 bits ]  | [ 4 bits ] | [ 8 bits ]
+      [opcode]  |   [ reg ]  |    [  ]
+
+
+instruções tipo I (li, addi, subi):
+
+    [ 4 bits ]  | [ 4 bits ] | [ 8 bits ]
+      [opcode]  |   [ acu ]  |  [ cnte ]
+
+
+instrução mv:
+
+    [ 4 bits ]  | [ 4 bits ] | [ 8 bits ]
+      [0100]    |   [ reg ]  |    [  ]
+
+
+instrução store:
+
+    [ 4 bits ]  | [ 4 bits ] | [ 8 bits ]
+      [1000]    |   [ reg ]  |    [  ]
+
+
+instrução jump:
+    [ 4 bits ]  | [ 7 bits ] | [ 5 bits ]
+      [0101]    |   [ end ]  |    [  ]
